@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+body {
+  background-color: rgb(138, 49, 221);
+  padding: 40px 150px 0px;
+}
+h1 {
+  color: white;
+  margin-bottom: 60px;
+}
+input {
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 3px;
+  border: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  transition: 300ms;
+  background-color: rgb(53, 2, 53);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: pink;
+  color: black;
+}
+.input {
+  display: flex;
+}
+.desc {
+  margin: 50px 400px 0px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+}
+#city {
+  text-align: center;
+  padding-left: 30px;
+}
